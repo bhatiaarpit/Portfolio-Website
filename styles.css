@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body{
+    
+    background: black;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 122px;
+    background-color: #227c9b8a;
+    background-image: linear-gradient(#227c9b8a, black);
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav img{
+    opacity: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #9be2f7e6;
+    font-size: 1.09rem;
+}
+
+main hr{
+    border: 0;
+    background: #4dcaf1e6;
+    height: 2.2px;
+    margin: 210px 119px;
+    opacity: 70%;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    
+    
+}
+
+.firstSection > div{
+    font-size: 38px;
+    width: 26%;
+    margin-top: 142px;
+    
+}
+
+.leftSection div{
+    font-size: 32px;
+    
+}
+.leftSection .buttons{
+    padding: 23px;
+}
+.leftSection .btn{
+    padding: 9px 21px;
+    background-color: #122931;
+    color: white;
+    border: 1px solid #76cce6;
+    border-radius: 27px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 32px;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+
+.rightSection img{
+    width: 140%;
+    margin: -135px;
+    margin-top: -155px;
+    opacity: 80%;
+}
+
+.green{
+    color: #76cce6;
+}
+
+.textgray{
+    color: white;
+    opacity: 60%;
+}
+
+#element{
+    font-size: 28px;
+    color: #83e2ffe6;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: 39px;
+    padding-left: 146px;
+    margin-top: -150px;
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 40px;
+
+}
+.secondSection .box{
+    background: #00e2ff94;
+    width: 80vw;
+    height: 2px;
+    margin: 42px -42px;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color:  #00e2ff94;
+    margin: 0 100px;
+}
+
+.image-top{
+    top: -18px;
+    position: relative;
+    width: 38px;
+    left: -17px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 46px;
+    left: -18px;
+}
+
+.footer{
+    display: flex;
+    background-color: #124354;
+    background-image: linear-gradient( black, #227c9b8a);
+    padding: 53px 66px;
+    justify-content: space-evenly;
+    height: 133px;
+    text-decoration: none;
+    
+}
+.footer hr{
+    color:#124354;
+    height: 5px;
+    
+}
+
+.footer ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .footer-rights{
+    padding-left: 500px;
+    background-color: #124354;
+    color: #d0d0d0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
